@@ -5,10 +5,6 @@ public interface QuanLyXe <T>{
 
     void sua(String name, T t);
 
-    void them(XeMay xeMay);
-
-    void sua(String name, XeMay xeMay);
-
     void xoa(String name);
 
     int timKiem(String name);
